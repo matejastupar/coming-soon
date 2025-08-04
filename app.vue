@@ -1,6 +1,7 @@
 <template>
     <img src="/weblossom_logo_large_light_shadow.svg" alt="weblossom_logo" />
     <h1>coming soon!</h1>
+    <button data-umami-event="tracker">tracking button</button>
 </template>
 
 <style>
@@ -18,6 +19,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 15px;
 }
 
 img {

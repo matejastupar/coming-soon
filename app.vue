@@ -1,7 +1,7 @@
 <template>
     <img src="/weblossom_logo_large_light_shadow.svg" alt="weblossom_logo" />
     <h1>coming soon!</h1>
-    <button @click="sendConversion">tracking button</button>
+    <button>tracking button</button>
 </template>
 
 <style>
@@ -86,13 +86,3 @@ h1 {
     }
 }
 </style>
-
-<script setup lang="ts">
-const { proxy } = useScriptUmamiAnalytics()
-
-proxy.track('event', { name: 'conversion-step' })
-
-function sendConversion() {
-  proxy.track('event', { name: 'conversion' })
-}
-</script>

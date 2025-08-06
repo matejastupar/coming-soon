@@ -1,7 +1,7 @@
 <template>
     <img src="/weblossom_logo_large_light_shadow.svg" alt="weblossom_logo" />
     <h1>coming soon!</h1>
-    <button>tracking button</button>
+    <button data-umami-event="tracker2">tracking button</button>
 </template>
 
 <style>
